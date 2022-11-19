@@ -91,6 +91,7 @@ def home():
     todays_news = articles[0]
     top_headlines = articles[1]
     business_articles = articles[2]
+    business_bun = articles[2]
     tech_articles = articles[3]
     entertainment_articles = articles[4]
     science_articles = articles[5]
@@ -107,8 +108,7 @@ def home():
                             science_articles = science_articles,
                             sport_articles = sport_articles,
                             health_articles = health_articles,
-                            business_BOTTOM = business_articles,
-                            random_articles=todays_news)
+                            business_bun= business_bun)
 
 @app.route('/todaysnews')
 def todaysnews():
